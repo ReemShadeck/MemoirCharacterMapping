@@ -4,16 +4,24 @@
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reem Shadeck - Character Map</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
     <h1>Family: A Collection of Mutualistic Relationships</h1>
     
     <img class="map" src="images/English Character Mapping.jpg" alt="The Character Map" usemap="#image-map">
     <map name="image-map">
-        <area alt="Craig Robinson" title="Craig Robinson" href="craig-robinson.html" coords="1006,2003,939,2016,731,1946,630,1867,617,1671,563,1509,768,1304,797,1142,1022,1072,1117,937,1367,934,1547,977,1633,1148,1743,1182,1820,1347,1964,1439,2013,1529,1898,1775,1865,1880,1739,1926,1670,2018,1506,2039,1384,1917,1152,1915,1121,1941,1089,1960,1051,1973" shape="poly">
-        <area alt="Michelle Obama" title="Michelle Obama" href="michelle-obama.html" coords="1170,2442,1398,2440,1950,3027,1285,3250,708,2985" shape="poly">
-        <area alt="Barack Obama" title="Barack Obama" href="barack-obama.html" coords="841,1996,742,2138,826,2289,1028,2286,1114,2133,1031,2000,943,2034" shape="poly">
+        <area alt="Michelle Obama" title="Michelle Obama" href="michelle-obama" coords="1006,2003,939,2016,731,1946,630,1867,617,1671,563,1509,768,1304,797,1142,1022,1072,1117,937,1367,934,1547,977,1633,1148,1743,1182,1820,1347,1964,1439,2013,1529,1898,1775,1865,1880,1739,1926,1670,2018,1506,2039,1384,1917,1152,1915,1121,1941,1089,1960,1051,1973" shape="poly">
+        <area alt="Craig Robinson" title="Craig Robinson" href="craig-robinson" coords="1170,2442,1398,2440,1950,3027,1285,3250,708,2985" shape="poly">
+        <area alt="Barack Obama" title="Barack Obama" href="barack-obama" coords="841,1996,742,2138,826,2289,1028,2286,1114,2133,1031,2000,943,2034" shape="poly">
     </map>
+
+    <script src="responsive-image-map/jquery.rwdImageMaps.min.js"></script>
+    <script>
+        $(document).ready(function(e) {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
 
     <br>
 
