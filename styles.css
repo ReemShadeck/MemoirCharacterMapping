@@ -15,6 +15,14 @@ body {
     display: inline-block;
 }
 
+.character-index h3 {
+    display: inline;
+}
+
+.character-index h4 {
+    display: inline;
+}
+
 .character-index img {
     display: inline-block;
     height: 1em;
@@ -46,3 +54,61 @@ p {
 #craig-robinson {
     background-color: rgb(235, 137, 33);
 }
+
+#michelle-obama a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#michelle-obama a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#michelle-obama a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+#michelle-obama a:active {
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:link {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 17pt;
+}
+
+h4 {
+    font-size: 13.5pt;
+    font-weight: normal;
+}
+
