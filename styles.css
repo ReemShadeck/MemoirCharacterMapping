@@ -1,0 +1,15 @@
+.map {
+    width: 100%;
+    height: auto;
+}
+
+.character-index {
+    display: inline;
+}
+
+.character-index img {
+    display: inline-block;
+    height: 1em;
+    width: auto;
+    margin-right: .5em;
+}
