@@ -25,3 +25,24 @@ body {
 h1 {
     text-align: center;
 }
+
+p {
+    font-size: 12pt;
+}
+
+.quotes {
+    text-align: center;
+}
+
+#michelle-obama {
+    background-color: darkblue;
+    color:  white;
+}
+
+#barack-obama {
+    background-color: gold;
+}
+
+#craig-robinson {
+    background-color: rgb(235, 137, 33);
+}
