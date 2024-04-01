@@ -3,16 +3,16 @@ body {
 }
 
 .map {
-    height: 100%;
-    width: auto;
-    display: block;
+    height: auto;
+    width: 80%;
+    display: inline;
     border: 4px solid darkblue;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 20%;
 }
 
 .character-index {
-    display: inline-block;
+    display: inline;
+    margin-left: 10%;
 }
 
 .character-index h3 {
@@ -115,5 +115,13 @@ h4 {
 h5 {
     font-size: 15pt;
     font-weight: normal;
+    text-align: center;
+    line-height: 1px;
 }
 
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 49.5% 0% 49.5%;
+    column-gap: 5px;
+}
